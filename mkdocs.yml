@@ -58,6 +58,9 @@ extra:
 
 nav:
   - Home: index.md
+  - Microsoft Learn Paths:
+      - Fundamentals Part 1: learning-path-part-1.md
+      - Fundamentals Part 2: learning-path-part-2.md
   - Study Modules:
       - Responsible AI: responsible-ai.md
       - Copilot features: copilot-features.md

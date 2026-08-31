@@ -22,6 +22,9 @@
 - [Apply prompt engineering and context crafting](https://cloud2br-msftlearninghub.github.io/GH-300StudyGuide/prompt-engineering/)
 - [Improve developer productivity](https://cloud2br-msftlearninghub.github.io/GH-300StudyGuide/productivity/)
 - [Configure privacy, exclusions, and safeguards](https://cloud2br-msftlearninghub.github.io/GH-300StudyGuide/privacy-safeguards/)
+- [Summarize GitHub Copilot Fundamentals Part 1](https://cloud2br-msftlearninghub.github.io/GH-300StudyGuide/learning-path-part-1/)
+- [Summarize GitHub Copilot Fundamentals Part 2](https://cloud2br-msftlearninghub.github.io/GH-300StudyGuide/learning-path-part-2/)
+- [Practice with 48 original scenario questions](https://cloud2br-msftlearninghub.github.io/GH-300StudyGuide/practice-questions/)
 
 ## Skills measured
 
@@ -36,15 +39,16 @@
 
 ## Microsoft Learn study map
 
-Use the guide modules for organized notes, then complete the official learning content and hands-on exercises.
+The two official paths contain 15 modules and approximately 519 minutes of instruction. The local Part 1 and Part 2 summaries follow every module in order, highlight product boundaries and governance details, and point back to the official exercises. Use the six exam-domain chapters for focused revision, then complete the Microsoft Learn content and hands-on exercises.
 
-| Study goal | Official Microsoft Learn resource |
-| --- | --- |
-| Cover the certification curriculum | [GitHub Copilot Fundamentals Part 1](https://learn.microsoft.com/en-us/training/paths/copilot/) and [Part 2](https://learn.microsoft.com/en-us/training/paths/gh-copilot-2/) |
-| Practice responsible operation | [Responsible AI with GitHub Copilot](https://learn.microsoft.com/en-us/training/modules/responsible-ai-with-github-copilot/) |
-| Apply Copilot across the SDLC | [Developer use cases for AI with GitHub Copilot](https://learn.microsoft.com/en-us/training/modules/developer-use-cases-for-ai-with-github-copilot/) |
-| Generate and review tests | [Develop unit tests using GitHub Copilot tools](https://learn.microsoft.com/en-us/training/modules/develop-unit-tests-using-github-copilot-tools/) |
-| Check exam readiness | [Official GitHub Copilot practice assessment](https://learn.microsoft.com/en-us/credentials/certifications/github-copilot/practice/assessment?assessment-type=practice) |
+| Study goal | Guide summary | Official Microsoft Learn resource |
+| --- | --- | --- |
+| Core concepts, prompting, governance, SDLC, and tests | [Part 1 summary](https://cloud2br-msftlearninghub.github.io/GH-300StudyGuide/learning-path-part-1/) | [GitHub Copilot Fundamentals Part 1](https://learn.microsoft.com/en-us/training/paths/copilot/) |
+| Agents, MCP, reviews, JavaScript, and Python | [Part 2 summary](https://cloud2br-msftlearninghub.github.io/GH-300StudyGuide/learning-path-part-2/) | [GitHub Copilot Fundamentals Part 2](https://learn.microsoft.com/en-us/training/paths/gh-copilot-2/) |
+| Practice responsible operation | [Responsible AI chapter](https://cloud2br-msftlearninghub.github.io/GH-300StudyGuide/responsible-ai/) | [Responsible AI with GitHub Copilot](https://learn.microsoft.com/en-us/training/modules/responsible-ai-with-github-copilot/) |
+| Apply Copilot across the SDLC | [Productivity chapter](https://cloud2br-msftlearninghub.github.io/GH-300StudyGuide/productivity/) | [Developer use cases for AI with GitHub Copilot](https://learn.microsoft.com/en-us/training/modules/developer-use-cases-for-ai-with-github-copilot/) |
+| Generate and review tests | [Testing workflow](https://cloud2br-msftlearninghub.github.io/GH-300StudyGuide/productivity/#testing-workflow) | [Develop unit tests using GitHub Copilot tools](https://learn.microsoft.com/en-us/training/modules/develop-unit-tests-using-github-copilot-tools/) |
+| Check exam readiness | [48 practice questions](https://cloud2br-msftlearninghub.github.io/GH-300StudyGuide/practice-questions/) | [Official GitHub Copilot practice assessment](https://learn.microsoft.com/en-us/credentials/certifications/github-copilot/practice/assessment?assessment-type=practice) |
 
 > **Tip**
 >
