@@ -1,1 +1,6 @@
-(function () { function apply() { document.querySelectorAll("a[href]").forEach(function (link) { var url; try { url = new URL(link.href, window.location.href); } catch (error) { return; } if ((url.protocol === "http:" || url.protocol === "https:") && url.origin !== window.location.origin) { link.target = "_blank"; link.rel = "noopener noreferrer"; } }); } if (document.readyState === "loading") { document.addEventListener("DOMContentLoaded", apply); } else { apply(); } })();
+document.querySelectorAll('a[href^="http"]').forEach((link) => {
+  if (link.hostname !== window.location.hostname) {
+    link.target = "_blank";
+    link.rel = "noopener noreferrer";
+  }
+});
