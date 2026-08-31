@@ -2,6 +2,11 @@
 
 An effective prompt makes the desired outcome, relevant context, constraints, and validation criteria explicit. Prompt engineering is iterative: inspect the result, identify the missing signal, and refine deliberately.
 
+<figure class="product-visual">
+    <a href="https://docs.github.com/en/copilot/how-tos/chat-with-copilot/chat-in-ide"><img src="https://docs.github.com/assets/images/help/copilot/vsc-copilot-chat-icon.png" alt="Copilot Chat button highlighted in the Visual Studio Code title bar" /></a>
+    <figcaption>Official GitHub Docs product visual: open <a href="https://docs.github.com/en/copilot/how-tos/chat-with-copilot/chat-in-ide">Copilot Chat</a>, then supply a focused goal and relevant context.</figcaption>
+</figure>
+
 | Prompt element | Example purpose |
 | --- | --- |
 | Goal | State the concrete result to produce |
@@ -32,6 +37,16 @@ flowchart LR
 
 More context is not automatically better. Irrelevant files, stale chat history, and contradictory instructions reduce signal. Attach authoritative sources, select the smallest useful code area, and state which source wins when constraints conflict.
 
+### Techniques from the official guidance
+
+1. **Start general, then get specific.** Introduce the scenario before listing detailed behavior, error handling, compatibility, and output requirements.
+2. **Give examples.** Provide representative input, expected output, or an existing implementation pattern. Tests can serve as executable examples.
+3. **Break down complex work.** Request small, independently verifiable functions or phases instead of one broad result.
+4. **Avoid ambiguous references.** Name the function, file, response, library, or framework instead of saying “this” or “make it work.”
+5. **Indicate relevant code.** Select code or attach files and symbols explicitly; close irrelevant files when the client uses open editors as context.
+6. **Experiment and iterate.** Explain what is wrong with the result and refine one missing constraint at a time.
+7. **Keep history relevant.** Begin a new thread for a new task and remove stale turns when supported.
+
 ## Practical prompt pattern
 
 ```text
@@ -43,6 +58,16 @@ Validation: Run the focused test suite and report failures.
 ```
 
 Chat history becomes context, not guaranteed memory. Correct an incorrect premise explicitly. For a new unrelated task, start a focused conversation to avoid carrying irrelevant assumptions.
+
+### Diagnose a weak response
+
+| Symptom | Likely prompt problem | Better follow-up |
+| --- | --- | --- |
+| Wrong framework | Dependency was implicit | “Use xUnit already referenced by `Project.Tests.csproj`; add no package.” |
+| Missed edge cases | Only the happy path was described | List boundaries, invalid inputs, and expected failures. |
+| Broad unrelated edits | Scope was undefined | Name allowed files and state what must remain unchanged. |
+| Invented API | Source of truth was absent | Attach current API documentation or the interface definition. |
+| Repeated bad assumption | Stale history remains active | Correct it explicitly or start a new focused thread. |
 
 Study [prompt engineering for Copilot Chat](https://docs.github.com/en/copilot/concepts/prompting/prompt-engineering) and [best practices for using GitHub Copilot](https://docs.github.com/en/copilot/get-started/best-practices).
 

@@ -34,6 +34,18 @@
 | Improve developer productivity with GitHub Copilot | 10-15% |
 | Configure privacy, content exclusions, and safeguards | 10-15% |
 
+## Microsoft Learn study map
+
+Use the guide modules for organized notes, then complete the official learning content and hands-on exercises.
+
+| Study goal | Official Microsoft Learn resource |
+| --- | --- |
+| Cover the certification curriculum | [GitHub Copilot Fundamentals Part 1](https://learn.microsoft.com/en-us/training/paths/copilot/) and [Part 2](https://learn.microsoft.com/en-us/training/paths/gh-copilot-2/) |
+| Practice responsible operation | [Responsible AI with GitHub Copilot](https://learn.microsoft.com/en-us/training/modules/responsible-ai-with-github-copilot/) |
+| Apply Copilot across the SDLC | [Developer use cases for AI with GitHub Copilot](https://learn.microsoft.com/en-us/training/modules/developer-use-cases-for-ai-with-github-copilot/) |
+| Generate and review tests | [Develop unit tests using GitHub Copilot tools](https://learn.microsoft.com/en-us/training/modules/develop-unit-tests-using-github-copilot-tools/) |
+| Check exam readiness | [Official GitHub Copilot practice assessment](https://learn.microsoft.com/en-us/credentials/certifications/github-copilot/practice/assessment?assessment-type=practice) |
+
 > **Tip**
 >
 > The current English exam skills measured as of August 7, 2026 are reflected here. Review the current [skills measured](https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/gh-300) before scheduling the exam.

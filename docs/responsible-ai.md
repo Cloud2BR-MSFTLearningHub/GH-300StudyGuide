@@ -35,6 +35,18 @@ flowchart LR
 
 Copilot does not remove responsibility for correctness, licensing, security, accessibility, or policy compliance. High-impact decisions need stronger controls than low-risk drafting tasks.
 
+## Match oversight to risk
+
+| Scenario | Risk signal | Appropriate response |
+| --- | --- | --- |
+| Drafting an internal comment | Low impact and easy to reverse | Read for accuracy and clarity |
+| Generating an authentication handler | Security boundary | Threat-model, test, scan, and require peer review |
+| Suggesting a hiring decision | Material impact on people | Do not delegate the decision; apply formal fairness and governance controls |
+| Modernizing a payment calculation | Financial and regression risk | Preserve behavior with characterization tests and domain-owner approval |
+| Producing third-party-like code | Intellectual-property uncertainty | Inspect code references, source, and license before use |
+
+Responsible operation includes deciding when *not* to use generated output. Do not use Copilot as the final authority for legal, medical, employment, financial, security, or other high-impact decisions. Keep sensitive data out of prompts unless its use is explicitly approved and protected by the applicable service terms and organizational controls.
+
 ## Validation workflow
 
 1. Read the complete suggestion and explain what it does.
@@ -42,6 +54,14 @@ Copilot does not remove responsibility for correctness, licensing, security, acc
 3. Run formatting, compilation, tests, and security checks.
 4. Review edge cases, failure handling, accessibility, privacy, and performance.
 5. Use normal peer-review and approval controls before release.
+
+### What automated checks can and cannot prove
+
+- A compiler can prove that code satisfies language rules, not that the requirement is correct.
+- Unit tests can confirm selected examples, not every possible behavior.
+- Security scanning can identify known patterns, not guarantee the absence of vulnerabilities.
+- Public-code filters can detect some matches, not establish ownership or suitability.
+- A human review can add domain judgment, but it should be supported by repeatable evidence.
 
 Study [Responsible AI with GitHub Copilot](https://learn.microsoft.com/en-us/training/modules/responsible-ai-with-github-copilot/) and [responsible use of code completion](https://docs.github.com/en/copilot/responsible-use/copilot-code-completion).
 
