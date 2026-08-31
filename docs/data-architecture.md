@@ -3,8 +3,8 @@
 Copilot assembles allowed context into a prompt, sends it through GitHub's service, receives model output, applies processing, and presents a suggestion. Retention and model behavior depend on the plan, feature, settings, and current product terms.
 
 <figure class="product-visual">
-    <a href="https://docs.github.com/en/copilot/how-tos/chat-with-copilot/chat-in-ide"><img src="https://docs.github.com/assets/images/help/copilot/vsc-copilot-chat-icon.png" alt="Copilot Chat button highlighted in the Visual Studio Code title bar" /></a>
-    <figcaption>Official GitHub Docs product visual: the <a href="https://docs.github.com/en/copilot/how-tos/chat-with-copilot/chat-in-ide">Copilot Chat entry point in Visual Studio Code</a>.</figcaption>
+    <a href="https://docs.github.com/en/copilot/how-tos/chat-with-copilot/chat-in-ide"><img src="../assets/images/copilot-vscode-chat.png" alt="Copilot Chat button highlighted in the Visual Studio Code title bar" /></a>
+    <figcaption>Image source: <a href="https://docs.github.com/en/copilot/how-tos/chat-with-copilot/chat-in-ide">GitHub Docs, Copilot Chat in Visual Studio Code</a>.</figcaption>
 </figure>
 
 ```mermaid

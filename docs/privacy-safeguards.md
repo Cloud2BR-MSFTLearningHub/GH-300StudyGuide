@@ -3,8 +3,8 @@
 Separate three concerns: access control determines who can read content, content exclusion limits supported Copilot context, and safeguards filter or flag certain suggestions. They complement rather than replace one another.
 
 <figure class="product-visual">
-    <a href="https://docs.github.com/en/copilot/using-github-copilot/finding-public-code-that-matches-github-copilot-suggestions"><img src="https://docs.github.com/assets/images/help/copilot/code-reference-dotcom.png" alt="Copilot Chat response showing a link to public code references" /></a>
-    <figcaption>Official GitHub Docs product visual: <a href="https://docs.github.com/en/copilot/using-github-copilot/finding-public-code-that-matches-github-copilot-suggestions">public code references</a> identify repositories and available license information for similar code.</figcaption>
+    <a href="https://docs.github.com/en/copilot/using-github-copilot/finding-public-code-that-matches-github-copilot-suggestions"><img src="../assets/images/copilot-code-reference.png" alt="Copilot Chat response showing a link to public code references" /></a>
+    <figcaption>Image source: <a href="https://docs.github.com/en/copilot/using-github-copilot/finding-public-code-that-matches-github-copilot-suggestions">GitHub Docs, finding public code that matches Copilot suggestions</a>.</figcaption>
 </figure>
 
 | Control | Purpose | Important limitation |
@@ -30,7 +30,8 @@ Administrators can configure exclusions at supported repository or organization 
 
 Patterns use `fnmatch`-style matching and are case insensitive. Repository settings list paths; organization and enterprise settings map repository references to path lists and can also use `"*"` for files outside a Git repository. Enterprise exclusions apply to all Copilot users in the enterprise, while organization exclusions apply to users whose seat is assigned by that organization.
 
-> **Important limitation:** GitHub Copilot CLI and Agent mode in IDEs do not support content exclusion. Check the current [supported surfaces](https://docs.github.com/en/copilot/reference/supported-surfaces-for-policies) before relying on a policy.
+!!! warning "Important limitation"
+    GitHub Copilot CLI and Agent mode in IDEs do not support content exclusion. Check the current [supported surfaces](https://docs.github.com/en/copilot/reference/supported-surfaces-for-policies) before relying on a policy.
 
 ```mermaid
 flowchart TD
@@ -55,15 +56,15 @@ If suggestions matching public code are allowed, Copilot can show references wit
 ## Audit exclusion changes
 
 <figure class="product-visual">
-    <a href="https://docs.github.com/en/copilot/how-tos/configure-content-exclusion/review-changes"><img src="https://docs.github.com/assets/images/help/copilot/content-exclusions-last-edited-by.png" alt="Content exclusion settings showing who last edited the configuration and when" /></a>
-    <figcaption>Official GitHub Docs product visual: the content-exclusion settings link to the relevant <a href="https://docs.github.com/en/copilot/how-tos/configure-content-exclusion/review-changes">audit history</a>.</figcaption>
+    <a href="https://docs.github.com/en/copilot/how-tos/configure-content-exclusion/review-changes"><img src="../assets/images/copilot-content-exclusion-history.png" alt="Content exclusion settings showing who last edited the configuration and when" /></a>
+    <figcaption>Image source: <a href="https://docs.github.com/en/copilot/how-tos/configure-content-exclusion/review-changes">GitHub Docs, reviewing content-exclusion changes</a>.</figcaption>
 </figure>
 
 Repository and organization settings show who last changed exclusions and when. Following that timestamp opens audit log entries for `copilot.content_exclusion_changed`. Expand an entry to inspect the resulting `excluded_paths` value and determine the scope and actor responsible for the change.
 
 <figure class="product-visual">
-    <a href="https://docs.github.com/en/copilot/how-tos/configure-content-exclusion/review-changes"><img src="https://docs.github.com/assets/images/help/copilot/copilot-audit-log.png" alt="GitHub audit log details for a Copilot content exclusion change" /></a>
-    <figcaption>Official GitHub Docs product visual: details for a <code>copilot.content_exclusion_changed</code> audit event.</figcaption>
+    <a href="https://docs.github.com/en/copilot/how-tos/configure-content-exclusion/review-changes"><img src="../assets/images/copilot-audit-log.png" alt="GitHub audit log details for a Copilot content exclusion change" /></a>
+    <figcaption>Image source: <a href="https://docs.github.com/en/copilot/how-tos/configure-content-exclusion/review-changes">GitHub Docs, reviewing content-exclusion changes</a>.</figcaption>
 </figure>
 
 ## Troubleshooting checklist

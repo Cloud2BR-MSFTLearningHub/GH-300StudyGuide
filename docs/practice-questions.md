@@ -1,6 +1,7 @@
 # GH-300 practice questions
 
-> **Important:** These are original study questions, not Microsoft or GitHub exam questions. Use the [official GH-300 study guide](https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/gh-300) and practice assessment as the final authority.
+!!! important
+	These are original study questions, not Microsoft or GitHub exam questions. Use the [official GH-300 study guide](https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/gh-300) and practice assessment as the final authority.
 
 Answer before opening each rationale, explain why the distractors fail, and revisit the linked documentation for weak areas.
 

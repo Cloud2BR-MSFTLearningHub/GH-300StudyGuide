@@ -3,8 +3,8 @@
 An effective prompt makes the desired outcome, relevant context, constraints, and validation criteria explicit. Prompt engineering is iterative: inspect the result, identify the missing signal, and refine deliberately.
 
 <figure class="product-visual">
-    <a href="https://docs.github.com/en/copilot/how-tos/chat-with-copilot/chat-in-ide"><img src="https://docs.github.com/assets/images/help/copilot/vsc-copilot-chat-icon.png" alt="Copilot Chat button highlighted in the Visual Studio Code title bar" /></a>
-    <figcaption>Official GitHub Docs product visual: open <a href="https://docs.github.com/en/copilot/how-tos/chat-with-copilot/chat-in-ide">Copilot Chat</a>, then supply a focused goal and relevant context.</figcaption>
+    <a href="https://docs.github.com/en/copilot/how-tos/chat-with-copilot/chat-in-ide"><img src="../assets/images/copilot-vscode-chat.png" alt="Copilot Chat button highlighted in the Visual Studio Code title bar" /></a>
+    <figcaption>Image source: <a href="https://docs.github.com/en/copilot/how-tos/chat-with-copilot/chat-in-ide">GitHub Docs, Copilot Chat in Visual Studio Code</a>.</figcaption>
 </figure>
 
 | Prompt element | Example purpose |

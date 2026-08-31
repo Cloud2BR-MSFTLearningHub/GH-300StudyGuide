@@ -1,7 +1,7 @@
 # Study Guide: GitHub Copilot (GH-300)
 
-> [!NOTE]
-> This independent study guide contains original study notes and diagrams, not official exam questions. It follows the [GH-300 Microsoft Learn study guide](https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/gh-300). Use the [GitHub Copilot certification page](https://learn.microsoft.com/en-us/credentials/certifications/github-copilot/) for current exam details, the practice assessment, and scheduling information.
+!!! note
+	This independent study guide contains original study notes and diagrams, not official exam questions. It follows the [GH-300 Microsoft Learn study guide](https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/gh-300). Use the [GitHub Copilot certification page](https://learn.microsoft.com/en-us/credentials/certifications/github-copilot/) for current exam details, the practice assessment, and scheduling information.
 
 <details markdown="1">
 <summary><b>List of official references</b> (Click to expand)</summary>
@@ -50,12 +50,10 @@ The two official paths contain 15 modules and approximately 519 minutes of instr
 | Generate and review tests | [Testing workflow](https://cloud2br-msftlearninghub.github.io/GH-300StudyGuide/productivity/#testing-workflow) | [Develop unit tests using GitHub Copilot tools](https://learn.microsoft.com/en-us/training/modules/develop-unit-tests-using-github-copilot-tools/) |
 | Check exam readiness | [48 practice questions](https://cloud2br-msftlearninghub.github.io/GH-300StudyGuide/practice-questions/) | [Official GitHub Copilot practice assessment](https://learn.microsoft.com/en-us/credentials/certifications/github-copilot/practice/assessment?assessment-type=practice) |
 
-> **Tip**
->
-> The current English exam skills measured as of August 7, 2026 are reflected here. Review the current [skills measured](https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/gh-300) before scheduling the exam.
+!!! tip
+	The current English exam skills measured as of August 7, 2026 are reflected here. Review the current [skills measured](https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/gh-300) before scheduling the exam.
 
-<div align="center">
-	<img src="https://learn.microsoft.com/en-us/media/learn/certification/badges/github-copilot.svg" alt="Official GitHub Copilot certification badge from Microsoft Learn" style="border: 2px solid #0969da; border-radius: 5px; padding: 5px; width: 200px;"/>
-</div>
-
-Badge image from [Microsoft Learn](https://learn.microsoft.com/en-us/credentials/certifications/github-copilot/).
+<figure class="product-visual certification-badge">
+	<a href="https://learn.microsoft.com/en-us/credentials/certifications/github-copilot/"><img src="assets/images/github-copilot-certification.svg" alt="Official GitHub Copilot certification badge from Microsoft Learn" /></a>
+	<figcaption>Image source: <a href="https://learn.microsoft.com/en-us/credentials/certifications/github-copilot/">Microsoft Learn, GitHub Copilot certification</a>.</figcaption>
+</figure>

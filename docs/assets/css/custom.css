@@ -47,7 +47,7 @@
   overflow: hidden;
 }
 
-.product-visual a {
+.product-visual > a {
   display: block;
 }
 
@@ -61,9 +61,28 @@
 }
 
 .product-visual figcaption {
+  background: #edf4fb;
   border-top: 1px solid #c2d4e5;
+  color: #334155;
   font-size: 0.75rem;
   padding: 0.65rem 0.85rem;
+}
+
+.certification-badge {
+  max-width: 16rem;
+}
+
+.md-typeset .task-list-control input[type="checkbox"]:not(:disabled),
+.md-typeset .task-list-item label {
+  cursor: pointer;
+}
+
+.md-typeset .task-list-indicator {
+  cursor: pointer;
+  display: inline-block;
+  height: 1.25rem;
+  vertical-align: middle;
+  width: 1.25rem;
 }
 
 .md-typeset table:not([class]) {

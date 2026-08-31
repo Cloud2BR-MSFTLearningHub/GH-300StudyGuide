@@ -10,8 +10,8 @@ copyright: Copyright &copy; 2026 <a href="https://github.com/Cloud2BR-MSFTLearni
 
 theme:
   name: material
-  logo: https://avatars.githubusercontent.com/u/195347873?v=4
-  favicon: https://avatars.githubusercontent.com/u/195347873?v=4
+  logo: assets/images/cloud2br-logo.png
+  favicon: assets/images/cloud2br-logo.png
   features:
     - navigation.sections
     - navigation.expand
@@ -47,6 +47,7 @@ extra_css:
 extra_javascript:
   - assets/js/logo-link.js
   - assets/js/external-links.js
+  - assets/js/checklists.js
   - path: assets/js/mermaid.js
     type: module
 extra:

@@ -51,8 +51,8 @@ Complete the [Responsible AI with GitHub Copilot module](https://learn.microsoft
 This module establishes Copilot as an AI pair programmer, covers ways to trigger suggestions, and walks through setup, configuration, troubleshooting, and an exercise in Visual Studio Code.
 
 <figure class="product-visual">
-    <a href="https://docs.github.com/en/copilot/how-tos/chat-with-copilot/chat-in-ide"><img src="https://docs.github.com/assets/images/help/copilot/vsc-copilot-chat-icon.png" alt="Copilot Chat button highlighted in the Visual Studio Code title bar" /></a>
-    <figcaption>Official GitHub Docs product visual: open <a href="https://docs.github.com/en/copilot/how-tos/chat-with-copilot/chat-in-ide">Copilot Chat in Visual Studio Code</a>.</figcaption>
+    <a href="https://docs.github.com/en/copilot/how-tos/chat-with-copilot/chat-in-ide"><img src="../assets/images/copilot-vscode-chat.png" alt="Copilot Chat button highlighted in the Visual Studio Code title bar" /></a>
+    <figcaption>Image source: <a href="https://docs.github.com/en/copilot/how-tos/chat-with-copilot/chat-in-ide">GitHub Docs, Copilot Chat in Visual Studio Code</a>.</figcaption>
 </figure>
 
 ### Core ideas
@@ -147,8 +147,8 @@ Complete [Using advanced GitHub Copilot features](https://learn.microsoft.com/en
 Copilot follows development work across several surfaces. Choose based on task location, context, and desired autonomy.
 
 <figure class="product-visual">
-    <a href="https://docs.github.com/en/copilot/concepts/agents/about-copilot-cli"><img src="https://docs.github.com/assets/images/help/copilot/copilot-cli-welcome.png" alt="GitHub Copilot CLI welcome screen in an interactive terminal session" /></a>
-    <figcaption>Official GitHub Docs product visual: an interactive <a href="https://docs.github.com/en/copilot/concepts/agents/about-copilot-cli">Copilot CLI</a> session.</figcaption>
+    <a href="https://docs.github.com/en/copilot/concepts/agents/about-copilot-cli"><img src="../assets/images/copilot-cli-welcome.png" alt="GitHub Copilot CLI welcome screen in an interactive terminal session" /></a>
+    <figcaption>Image source: <a href="https://docs.github.com/en/copilot/concepts/agents/about-copilot-cli">GitHub Docs, GitHub Copilot CLI</a>.</figcaption>
 </figure>
 
 | Environment | Strong use case | Context or control to inspect |
@@ -166,8 +166,8 @@ Complete [GitHub Copilot across environments](https://learn.microsoft.com/en-us/
 This module connects plan selection with governance, contractual protections, public-code controls, content exclusions, customization, and troubleshooting.
 
 <figure class="product-visual">
-    <a href="https://docs.github.com/en/copilot/how-tos/configure-content-exclusion/review-changes"><img src="https://docs.github.com/assets/images/help/copilot/copilot-audit-log.png" alt="GitHub audit log details for a Copilot content exclusion change" /></a>
-    <figcaption>Official GitHub Docs product visual: audit details for a <code>copilot.content_exclusion_changed</code> event.</figcaption>
+    <a href="https://docs.github.com/en/copilot/how-tos/configure-content-exclusion/review-changes"><img src="../assets/images/copilot-audit-log.png" alt="GitHub audit log details for a Copilot content exclusion change" /></a>
+    <figcaption>Image source: <a href="https://docs.github.com/en/copilot/how-tos/configure-content-exclusion/review-changes">GitHub Docs, reviewing content-exclusion changes</a>.</figcaption>
 </figure>
 
 ### Governance layers

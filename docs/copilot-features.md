@@ -3,8 +3,8 @@
 This is the largest GH-300 domain. Know where each feature runs, how it receives context, its autonomy, and which plan or policy governs access.
 
 <figure class="product-visual">
-    <a href="https://docs.github.com/en/copilot/concepts/agents/about-copilot-cli"><img src="https://docs.github.com/assets/images/help/copilot/copilot-cli-welcome.png" alt="GitHub Copilot CLI welcome screen in an interactive terminal session" /></a>
-    <figcaption>Official GitHub Docs product visual: the interactive <a href="https://docs.github.com/en/copilot/concepts/agents/about-copilot-cli">GitHub Copilot CLI</a> interface.</figcaption>
+    <a href="https://docs.github.com/en/copilot/concepts/agents/about-copilot-cli"><img src="../assets/images/copilot-cli-welcome.png" alt="GitHub Copilot CLI welcome screen in an interactive terminal session" /></a>
+    <figcaption>Image source: <a href="https://docs.github.com/en/copilot/concepts/agents/about-copilot-cli">GitHub Docs, GitHub Copilot CLI</a>.</figcaption>
 </figure>
 
 | Surface | Best fit | Key distinction |

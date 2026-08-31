@@ -65,8 +65,8 @@ Complete [Building applications with GitHub Copilot agent mode](https://learn.mi
 Copilot Cloud Agent works asynchronously in a GitHub Actions-powered ephemeral environment. It can research a repository, plan, change one branch, run tests and linters, and create or update a pull request while the developer works elsewhere.
 
 <figure class="product-visual">
-    <a href="https://docs.github.com/en/copilot/using-github-copilot/using-copilot-coding-agent-to-work-on-tasks/reviewing-a-pull-request-created-by-copilot"><img src="https://docs.github.com/assets/images/help/copilot/cloud-agent/approve-and-run-workflows.png" alt="Pull request merge box for a Copilot-created pull request with the Approve and run workflows button" /></a>
-    <figcaption>Official GitHub Docs product visual: workflows on an agent-created pull request require deliberate <a href="https://docs.github.com/en/copilot/using-github-copilot/using-copilot-coding-agent-to-work-on-tasks/reviewing-a-pull-request-created-by-copilot">review and approval</a> by default.</figcaption>
+    <a href="https://docs.github.com/en/copilot/using-github-copilot/using-copilot-coding-agent-to-work-on-tasks/reviewing-a-pull-request-created-by-copilot"><img src="../assets/images/copilot-cloud-agent-workflow-approval.png" alt="Pull request merge box for a Copilot-created pull request with the Approve and run workflows button" /></a>
+    <figcaption>Image source: <a href="https://docs.github.com/en/copilot/using-github-copilot/using-copilot-coding-agent-to-work-on-tasks/reviewing-a-pull-request-created-by-copilot">GitHub Docs, reviewing a pull request created by Copilot</a>.</figcaption>
 </figure>
 
 ### Local agent mode versus cloud agent
@@ -104,8 +104,8 @@ Complete [Accelerate development with GitHub Copilot Cloud Agent](https://learn.
 Model Context Protocol is an open standard for exposing tools, resources, and prompts to AI applications. An MCP server extends what Copilot can retrieve or do; it also expands the security boundary.
 
 <figure class="product-visual">
-    <a href="https://docs.github.com/en/copilot/customizing-copilot/extending-copilot-chat-with-mcp"><img src="https://docs.github.com/assets/images/help/copilot/mcp-start-server-button.png" alt="MCP server configuration in Visual Studio Code with the Start button highlighted" /></a>
-    <figcaption>Official GitHub Docs product visual: start a configured <a href="https://docs.github.com/en/copilot/customizing-copilot/extending-copilot-chat-with-mcp">MCP server in Visual Studio Code</a>.</figcaption>
+    <a href="https://docs.github.com/en/copilot/customizing-copilot/extending-copilot-chat-with-mcp"><img src="../assets/images/copilot-mcp-start-server.png" alt="MCP server configuration in Visual Studio Code with the Start button highlighted" /></a>
+    <figcaption>Image source: <a href="https://docs.github.com/en/copilot/customizing-copilot/extending-copilot-chat-with-mcp">GitHub Docs, extending Copilot Chat with MCP</a>.</figcaption>
 </figure>
 
 ### MCP building blocks
@@ -147,13 +147,13 @@ Complete [Introduction to MCP Server](https://learn.microsoft.com/en-us/training
 Copilot code review analyzes changes and leaves comments with explanations and, where possible, suggested fixes. It supplements human review but does not approve or block a pull request.
 
 <figure class="product-visual">
-    <a href="https://docs.github.com/en/copilot/using-github-copilot/code-review/using-copilot-code-review"><img src="https://docs.github.com/assets/images/help/copilot/code-review/request-review@2x.png" alt="Copilot listed in the pull request Reviewers section with a Request button" /></a>
-    <figcaption>Official GitHub Docs product visual: request <a href="https://docs.github.com/en/copilot/using-github-copilot/code-review/using-copilot-code-review">a Copilot code review</a> from the pull request sidebar.</figcaption>
+    <a href="https://docs.github.com/en/copilot/using-github-copilot/code-review/using-copilot-code-review"><img src="../assets/images/copilot-code-review-request.png" alt="Copilot listed in the pull request Reviewers section with a Request button" /></a>
+    <figcaption>Image source: <a href="https://docs.github.com/en/copilot/using-github-copilot/code-review/using-copilot-code-review">GitHub Docs, using Copilot code review</a>.</figcaption>
 </figure>
 
 <figure class="product-visual">
-    <a href="https://docs.github.com/en/copilot/using-github-copilot/code-review/using-copilot-code-review"><img src="https://docs.github.com/assets/images/help/copilot/code-review/review-comment@2x.png" alt="A code review comment left by GitHub Copilot on a pull request" /></a>
-    <figcaption>Official GitHub Docs product visual: Copilot comments identify a potential issue for the author and human reviewers to evaluate.</figcaption>
+    <a href="https://docs.github.com/en/copilot/using-github-copilot/code-review/using-copilot-code-review"><img src="../assets/images/copilot-code-review-comment.png" alt="A code review comment left by GitHub Copilot on a pull request" /></a>
+    <figcaption>Image source: <a href="https://docs.github.com/en/copilot/using-github-copilot/code-review/using-copilot-code-review">GitHub Docs, using Copilot code review</a>.</figcaption>
 </figure>
 
 ### Review workflow and boundaries
