@@ -33,8 +33,11 @@ def main():
         if len(selected) != required or len(set(selected)) != required:
             raise ValueError(f"M{number}: selection count and answer key disagree")
         rationale = text.split(answer.group(0), 1)[1].split("</details>", 1)[0]
-        if len(rationale.split()) < 35 or not re.search(r"\[[^]]+\]\([^)]+\)", rationale):
+        if not rationale.strip() or not re.search(r"\[[^]]+\]\([^)]+\)", rationale):
             raise ValueError(f"M{number}: needs explanatory rationale and remediation link")
+        for distractor in set("ABCD") - set(selected):
+            if not re.search(rf"\b{distractor}\b", rationale):
+                raise ValueError(f"M{number}: rationale must address distractor {distractor}")
 
     domains = [
         ("Responsible use", 7, 15, 20),
