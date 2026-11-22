@@ -60,11 +60,13 @@
   width: 100%;
 }
 
-.product-visual figcaption {
+.product-visual figcaption,
+.product-visual .visual-caption {
   background: #edf4fb;
   border-top: 1px solid #c2d4e5;
   color: #334155;
   font-size: 0.75rem;
+  margin: 0;
   padding: 0.65rem 0.85rem;
 }
 
