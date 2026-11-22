@@ -30,6 +30,7 @@ markdown_extensions:
   - tables
   - pymdownx.highlight
   - pymdownx.snippets:
+      check_paths: true
       base_path:
         - .
   - pymdownx.superfences:
@@ -59,6 +60,11 @@ extra:
 
 nav:
   - Home: index.md
+  - Exam Preparation:
+      - Study plan and readiness: exam-preparation.md
+      - Objective coverage map: objective-map.md
+      - Six practical labs: hands-on-labs.md
+      - Weighted mock exam: mock-exam.md
   - Microsoft Learn Paths:
       - Fundamentals Part 1: learning-path-part-1.md
       - Fundamentals Part 2: learning-path-part-2.md
@@ -69,4 +75,4 @@ nav:
       - Prompt engineering: prompt-engineering.md
       - Developer productivity: productivity.md
       - Privacy and safeguards: privacy-safeguards.md
-  - Practice Questions: practice-questions.md
+  - Foundation Questions: practice-questions.md

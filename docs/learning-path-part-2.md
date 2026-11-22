@@ -62,7 +62,18 @@ Complete [Building applications with GitHub Copilot agent mode](https://learn.mi
 
 ## 2. Accelerate development with Copilot Cloud Agent
 
-Copilot Cloud Agent works asynchronously in a GitHub Actions-powered ephemeral environment. It can research a repository, plan, change one branch, run tests and linters, and create or update a pull request while the developer works elsewhere.
+The repository/issue-assignment workflow described by this module works
+asynchronously in a GitHub Actions-powered ephemeral environment. It can
+research a repository, plan, change one branch, run tests and linters, and
+create or update a pull request while the developer works elsewhere.
+
+!!! note "Do not generalize one execution environment"
+    Sources checked November 22, 2026: GitHub's newer cloud experience also
+    supports cloud-sandbox sessions and continuity across supported clients.
+    The table and lifecycle below describe the Actions-based repository/PR
+    workflow, not every cloud session. Check the exact environment's setup,
+    retention, networking, and review requirements in
+    [Copilot on GitHub](https://docs.github.com/en/copilot/concepts/copilot-surfaces/copilot-on-github).
 
 <figure class="product-visual">
     <a href="https://docs.github.com/en/copilot/using-github-copilot/using-copilot-coding-agent-to-work-on-tasks/reviewing-a-pull-request-created-by-copilot"><img src="../assets/images/copilot-cloud-agent-workflow-approval.png" alt="Pull request merge box for a Copilot-created pull request with the Approve and run workflows button" /></a>
@@ -71,7 +82,7 @@ Copilot Cloud Agent works asynchronously in a GitHub Actions-powered ephemeral e
 
 ### Local agent mode versus cloud agent
 
-| Dimension | IDE agent mode | Copilot Cloud Agent |
+| Dimension | IDE agent mode | Actions-based repository/PR workflow |
 | --- | --- | --- |
 | Environment | Developer's local workspace | Ephemeral GitHub Actions environment |
 | Interaction | Synchronous and actively supervised | Asynchronous background delegation |
@@ -82,7 +93,7 @@ Copilot Cloud Agent works asynchronously in a GitHub Actions-powered ephemeral e
 ### Assignment and review lifecycle
 
 1. Choose a bounded issue with clear acceptance criteria and repository context.
-2. Assign Copilot or start a session from a supported GitHub, IDE, CLI, API, or integration entry point.
+2. Assign Copilot to the bounded issue or start the applicable repository/PR workflow. Other client entry points can use different session environments.
 3. Monitor session logs, plan, tool use, commits, and test results.
 4. Steer the session or mention `@copilot` on its pull request when changes are required.
 5. Inspect the complete diff, security implications, dependencies, generated tests, and workflow changes.
@@ -91,8 +102,8 @@ Copilot Cloud Agent works asynchronously in a GitHub Actions-powered ephemeral e
 
 ### Limits and safeguards
 
-- A session changes only the selected repository, works on one branch, and opens at most one pull request.
-- Sessions have a hard maximum execution time; split broad tasks into smaller assignments.
+- This Actions-based workflow changes the selected repository, works on one branch, and opens at most one pull request.
+- Execution limits depend on the environment; split broad assignments into smaller reviewable tasks.
 - Incompatible branch rules can block the agent. Configure bypass only after reviewing the governance impact.
 - Custom instructions, MCP servers, custom agents, hooks, skills, and memory can improve context and specialization.
 - Usage consumes AI credits and can consume GitHub Actions minutes.

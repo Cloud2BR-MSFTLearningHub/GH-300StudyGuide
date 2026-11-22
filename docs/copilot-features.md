@@ -85,6 +85,43 @@ Customization can include repository instructions, MCP servers, custom agents, h
 
 Plans change frequently. Compare current [GitHub Copilot plans](https://docs.github.com/en/copilot/about-github-copilot/plans-for-github-copilot) rather than memorizing a stale feature matrix.
 
+## Distinctions worth practicing
+
+| Capability | What you should be able to explain | Not equivalent to |
+| --- | --- | --- |
+| Spaces | Curated shared sources and instructions for recurring work | Automatically granting access to private sources |
+| Spark (historical exam objective) | The natural-language application-building experience named in the published objectives; distinguish it from today's supported development workflows | A currently available new-app exercise or a guarantee of production readiness |
+| PR summary | A draft explanation of the proposed change | A review of every defect or approval to merge |
+| Code review | Feedback on changes under applicable policy | Required human approval or proof of security |
+| Prompt file | A reusable task prompt invoked for a particular operation | An organization policy |
+| Repository/path instructions | Persistent project or file-specific conventions | Enforceable permissions or secret storage |
+| Custom agent/subagent | Specialized task role, tools, and separate task context | Automatically broader authorization |
+
+Use [Spaces documentation](https://docs.github.com/en/copilot/concepts/prompting-and-context/spaces)
+to check current sharing and supported workflows.
+
+!!! warning "Spark: objective wording versus current availability"
+    GitHub stopped accepting new Spark users and new apps on August 4, 2026,
+    with export access for existing users until August 31. The published
+    August 7 exam objectives still name Spark. Understand its historical
+    purpose, but do not assume you can create a new Spark app today.
+    GitHub recommends supported Copilot development environments instead.
+    See the [official retirement notice](https://github.blog/changelog/2026-08-04-upcoming-deprecation-of-github-spark-on-github-com/).
+
+### Client, session, and environment
+
+The exam objectives are dated August 7, 2026; product documentation can change
+after that date. GitHub's newer cloud experience began rolling out in October
+2026. Distinguish the **client** you interact with, the **session** carrying the
+conversation, and the **environment** executing work.
+
+An issue assigned to Copilot can still use a repository-scoped GitHub Actions
+workflow and propose a PR. Supported cloud-sandbox sessions can instead continue
+across clients. Do not generalize one environment's retention, network rules,
+setup workflow, or continuity to every Copilot surface.
+Check [Copilot on GitHub](https://docs.github.com/en/copilot/concepts/copilot-surfaces/copilot-on-github)
+and current plan/policy details rather than memorizing old universal limits.
+
 ## Readiness check
 
 - When is agent mode a better fit than an inline suggestion?

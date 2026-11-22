@@ -31,7 +31,16 @@ Administrators can configure exclusions at supported repository or organization 
 Patterns use `fnmatch`-style matching and are case insensitive. Repository settings list paths; organization and enterprise settings map repository references to path lists and can also use `"*"` for files outside a Git repository. Enterprise exclusions apply to all Copilot users in the enterprise, while organization exclusions apply to users whose seat is assigned by that organization.
 
 !!! warning "Important limitation"
-    GitHub Copilot CLI and Agent mode in IDEs do not support content exclusion. Check the current [supported surfaces](https://docs.github.com/en/copilot/reference/supported-surfaces-for-policies) before relying on a policy.
+    As checked on November 22, 2026, GitHub documents content-exclusion support for Copilot CLI, supported IDE chat/agents, Copilot in the cloud, and code review on applicable plans. Older notes saying CLI and IDE agents never support exclusions are outdated. Check the current [content-exclusion support table](https://docs.github.com/en/copilot/concepts/security-governance-and-network-settings/content-exclusion) and [policy surfaces](https://docs.github.com/en/copilot/reference/supported-surfaces-for-policies) for your exact client and plan.
+
+Content exclusion is a guardrail, not a filesystem security boundary. Copilot tools
+block excluded paths and check identifiable paths in commands, but indirect
+access may not be detected. Third-party MCP servers/clients are not guaranteed
+to honor it, and IDE-provided semantic information may still influence answers.
+GitHub also documents limitations for symlinks and remote filesystems.
+Do not test these limits with real confidential files or attempt to work around
+an exclusion. Use OS permissions, approved tool scopes, and secret management
+for actual access restrictions.
 
 ```mermaid
 flowchart TD

@@ -5,6 +5,11 @@
 
 Answer before opening each rationale, explain why the distractors fail, and revisit the linked documentation for weak areas.
 
+This **48-question foundation bank** complements the
+[40-question weighted mock exam](mock-exam.md). Use the
+[study plan](exam-preparation.md) to record uncertainty, review mistakes by
+domain, and complete the [practical labs](hands-on-labs.md) before retesting.
+
 | Domain | Questions |
 | --- | ---: |
 | Responsible use | 1-3 |
