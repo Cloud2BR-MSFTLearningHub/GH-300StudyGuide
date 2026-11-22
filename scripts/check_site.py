@@ -4,7 +4,7 @@ from html.parser import HTMLParser
 from pathlib import Path
 from urllib.parse import unquote, urljoin, urlsplit
 
-import yaml
+from mkdocs.config import load_config
 
 
 class Page(HTMLParser):
@@ -27,7 +27,7 @@ class Page(HTMLParser):
 
 def main():
     root = Path(__file__).resolve().parents[1]
-    config = yaml.safe_load((root / "mkdocs.yml").read_text(encoding="utf-8"))
+    config = load_config(config_file=str(root / "mkdocs.yml"))
     site = (root / config.get("site_dir", "site")).resolve()
     base = config["site_url"].rstrip("/") + "/"
     origin = urlsplit(base)
